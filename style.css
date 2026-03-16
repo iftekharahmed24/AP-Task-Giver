@@ -1,0 +1,39 @@
+body{
+font-family: Arial;
+text-align:center;
+background: linear-gradient(to right,#1f4037,#99f2c8);
+color:white;
+padding-top:100px;
+}
+
+#title{
+font-size:40px;
+}
+
+#task{
+font-size:24px;
+background:white;
+color:black;
+padding:20px;
+display:inline-block;
+border-radius:10px;
+}
+
+button{
+margin-top:15px;
+padding:10px 20px;
+border:none;
+border-radius:6px;
+background:linear-gradient(to right,#1f4037,#99f2c8);
+color:white;
+font-size:16px;
+cursor:pointer;
+}
+
+button:hover{
+color: #fff;
+background:linear-gradient(to right,#99f2c8,#1f4037);
+font-weight: bold;
+transition: 0.5s ease;
+transform: translateY(-5px);
+}
